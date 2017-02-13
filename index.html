@@ -1,1 +1,152 @@
-test
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Carly Farah</title>
+
+    <!-- Jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap Start -->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap End -->
+
+    <!-- Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS Start -->
+      <style media="screen">
+        body{
+          background-image: url(img/cupcakes.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          padding-top: 0px;
+        }
+        #jumbotron{
+          height: 100vh;
+          margin-bottom: 0px;
+          background-color: rgba(238, 238, 238, 0);
+        }
+        #jumbotron .container-fluid{
+          height: 100%;
+        }
+        #headline{
+          margin-top: 25vh;
+          font-family: "Pacifico", "Avenir", "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana, sans-serif;
+          color: #efb3cc;
+        }
+        #enter{
+            vertical-align: bottom;
+            color: white;
+        }
+
+        body {
+            padding: 40px 0;
+            font-family: 'bebas', sans-serif;
+            background-color: #fff;
+        }
+
+        body .textcontainer {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        body .particletext {
+            text-align: center;
+            font-size: 48px;
+            position: relative;
+        }
+
+        body .particletext.confetti > .particle {
+            opacity: 0;
+            position: absolute;
+            animation: confetti 3s ease-in infinite;
+        }
+
+        body .particletext.confetti > .particle.c1 {
+            background-color: rgba(76, 175, 80, 0.5);
+        }
+
+        body .particletext.confetti > .particle.c2 {
+            background-color: rgba(156, 39, 176, 0.5);
+        }
+
+        @keyframes confetti {
+            0% {
+                opacity: 0;
+                transform: translateY(0%) rotate(0deg);
+            }
+            10% {
+                opacity: 1;
+            }
+            35% {
+                transform: translateY(11000%) rotate(270deg);
+            }
+            80% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(12000%) rotate(1440deg);
+            }
+        }
+      </style>
+    <!-- Custom CSS End -->
+  </head>
+  <body>
+    <div id="jumbotron" class="jumbotron">
+      <div class="container-fluid textcontainer">
+        <div class="textcontainer">
+          <span id="headline" class="text-center particletext confetti">Carly's Cakes</span>
+        </div>
+        <a id="enter" class="btn text-center" href="/home.html">Enter</a>
+      </div>
+    </div>
+  </body>
+
+  <!-- Custom JS -->
+  <script type="text/javascript">
+
+  // Sprinkles Start
+  //okpt("CSS Particle Effects");
+function initparticles() {
+ confetti();
+}
+
+/*The measurements are ... whack (so to say), for more general text usage I would generate different sized particles for the size of text; consider this pen a POC*/
+
+
+function confetti() {
+ $.each($(".particletext.confetti"), function(){
+    var confetticount = ($(this).width()/50)*10;
+    for(var i = 0; i <= confetticount; i++) {
+       $(this).append('<span class="particle c' + $.rnd(1,2) + '" style="top:' + $.rnd(10,50) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(6,8) + 'px; height:' + $.rnd(3,4) + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
+    }
+ });
+}
+
+
+jQuery.rnd = function(m,n) {
+    m = parseInt(m);
+    n = parseInt(n);
+    return Math.floor( Math.random() * (n - m + 1) ) + m;
+}
+
+initparticles();
+
+
+  // Sprinkles End
+
+  </script>
+  <!-- Custom JS -->
+
+</html>
