@@ -23,34 +23,83 @@
     <!-- Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
+    <style>
+      .nav > li > a{
+        position: relative;
+        display: block;
+        /*padding: 10px 15px 10px 15px;*/
+      }
+
+      ul.nav{
+        /*width:85%;*/
+        text-align: center;
+        display: inline-block;
+      }
+
+      .nav > li {
+        display: inline-block;
+      }
+
+      .container-fluid {
+        background: #95c0d0; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left top, #95c0d0, #e3c5d4); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #95c0d0, #e3c5d4); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #95c0d0, #e3c5d4); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #95c0d0, #e3c5d4); /* Standard syntax */
+      }
+
+      .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+        background-image: -webkit-linear-gradient(top,#e3c5d4 0,#e3c5d4 100%);
+        background-image: -o-linear-gradient(top,#e3c5d4 0,#e3c5d4 100%);
+        background-image: -webkit-gradient(linear,left top,left bottom,from(#e3c5d4),to(#e3c5d4));
+        background-image: linear-gradient(to bottom,#e3c5d4 0,#e3c5d4 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3c5d4', endColorstr='#e3c5d4', GradientType=0);
+        color: floralwhite;
+      }
+      .navbar-default .navbar-nav>li>a {
+        color: floralwhite;
+      }
+
+      .container {
+        alignment: center;
+      }
+
+    </style>
+
   </head>
   <body>
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="img/brand.png" width="20" height="25">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/prices">Prices</a></li>
+          <li><a href="/recipes">Recipes</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+    <div class="container">
+      <div id="intro">
+        <h1>Welcome to Carly's Cakes</h1>
+      </div>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/gallery">Gallery</a></li>
-        <li><a href="/prices">Prices</a></li>
-        <li><a href="/recipes">Recipes</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-    <h1>Home</h1>
   </body>
 </html>
