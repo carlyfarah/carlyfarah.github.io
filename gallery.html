@@ -5,19 +5,19 @@
     <title>Carly's Cakes Home</title>
 
     <!-- Jquery -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="css/bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Bootstrap Start -->
       <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
       <!-- Optional theme -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+      <link rel="stylesheet" href="css/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
       <!-- Latest compiled and minified JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="css/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
       <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Bootstrap End -->
 
     <!-- Fonts -->
@@ -26,6 +26,7 @@
     <style>
       .carousel-inner > .item > img {
         margin: auto;
+        padding-top: 75px;
       }
 
       .carousel .item {
@@ -64,8 +65,8 @@
 </nav>
 
     <h1>Gallery</h1>
-
-  <div class="carouselSlide" id="gallery" data-ride="carousel">
+<div class="container">
+  <div class="carousel slide" id="gallery" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#gallery" data-slide-to="1" class="active"></li>
       <li data-target="#gallery" data-slide-to="2"></li>
@@ -102,38 +103,104 @@
     </ol>
 
     <div class="carousel-inner" role="listbox">
-      <div class="item active"><img src="img/cake1.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake2.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake3.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake4.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake5.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake6.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake7.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake8.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake9.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake10.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake11.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake12.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake13.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake14.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake15.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake16.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake17.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake18.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake19.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake20.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake21.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake22.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake23.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake24.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake25.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake26.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake27.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake28.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake29.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake30.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake31.jpg" alt="" class="image-responsive enter-block"></div>
-      <div class="item"><img src="img/cake32.jpg" alt="" class="image-responsive enter-block"></div>
+
+      <div class="item active"><img src="img/cake1.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake2.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake3.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake4.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake5.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake6.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake7.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake8.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake9.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake10.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake11.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake12.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake13.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake14.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake15.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake16.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake17.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake18.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake19.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake20.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake21.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake22.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake23.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake24.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake25.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake26.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake27.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake28.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake29.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake30.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake31.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+      <div class="item"><img src="img/cake32.jpg" alt="" class="image-responsive enter-block" width="300px"
+                             height="500px"></div>
+
+      <!--<div class="item active"><img src="img/cake1.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake2.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake3.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake4.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake5.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake6.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake7.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake8.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake9.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake10.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake11.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake12.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake13.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake14.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake15.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake16.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake17.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake18.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake19.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake20.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake21.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake22.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake23.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake24.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake25.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake26.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake27.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake28.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake29.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake30.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake31.jpg" alt="" class="image-responsive enter-block"></div>-->
+      <!--<div class="item"><img src="img/cake32.jpg" alt="" class="image-responsive enter-block"></div>-->
 
     </div>
     <a href="#gallery" class="left carousel-control" role="button" data-slide="prev">
@@ -145,6 +212,7 @@
       </span><span class="sr-only">Next</span>
     </a>
 
-  </div>   
+  </div>
+</div>
   </body>
 </html>
