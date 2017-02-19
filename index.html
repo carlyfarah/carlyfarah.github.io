@@ -1,154 +1,83 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
-    <title>Carly Farah</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Los Angeles Bakery">
+    <meta name="author" content="Carly Farah">
 
-    <!-- Jquery -->
-      <<!-- Jquery -->
-      <script src="css/bower_components/jquery/dist/jquery.min.js"></script>
+    <title>Desserts by Carly</title>
 
-    <!-- Bootstrap Start -->
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="css/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+    <!-- <link rel="shortcut icon" type="image/png" href="http://eg.com/favicon.png"/> -->
 
-      <!-- Optional theme -->
-      <link rel="stylesheet" href="css/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="css/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
-    <!-- Bootstrap End -->
-    <!-- Bootstrap End -->
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-    <!-- Fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
 
-    <!-- Custom CSS Start -->
-      <style media="screen">
-        body{
-          background-image: url(img/cupcakes.jpg);
-          background-size: cover;
-          background-repeat: no-repeat;
-          padding-top: 0px;
-        }
-        #jumbotron{
-          height: 100vh;
-          margin-bottom: 0px;
-          background-color: rgba(238, 238, 238, 0);
-        }
-        #jumbotron .container-fluid{
-          height: 100%;
-        }
-        #headline{
-          margin-top: 25vh;
-          font-family: "Pacifico", "Avenir", "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana, sans-serif;
-          color: #efb3cc;
-        }
-        #enter{
-            vertical-align: bottom;
-            color: white;
-        }
+</head>
 
-        body {
-            padding: 40px 0;
-            font-family: 'bebas', sans-serif;
-            background-color: #fff;
-        }
+<body id="page-top">
 
-        body .textcontainer {
-            padding: 40px 0;
-            text-align: center;
-        }
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top" style="font-family:Pacifico;color:red"><img src="img/logo.png" alt="Desserts by Carly Logo" class="img-fluid" style="height:180%; display:inline-block;">Desserts by Carly</a>
+            </div>
 
-        body .particletext {
-            text-align: center;
-            font-size: 48px;
-            position: relative;
-        }
-
-        body .particletext.confetti > .particle {
-            opacity: 0;
-            position: absolute;
-            animation: confetti 3s ease-in infinite;
-        }
-
-        body .particletext.confetti > .particle.c1 {
-            background-color: rgba(76, 175, 80, 0.5);
-        }
-
-        body .particletext.confetti > .particle.c2 {
-            background-color: rgba(156, 39, 176, 0.5);
-        }
-
-        @keyframes confetti {
-            0% {
-                opacity: 0;
-                transform: translateY(0%) rotate(0deg);
-            }
-            10% {
-                opacity: 1;
-            }
-            35% {
-                transform: translateY(11000%) rotate(270deg);
-            }
-            80% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0;
-                transform: translateY(12000%) rotate(1440deg);
-            }
-        }
-      </style>
-    <!-- Custom CSS End -->
-  </head>
-  <body>
-    <div id="jumbotron" class="jumbotron">
-      <div class="container-fluid textcontainer">
-        <div class="textcontainer">
-          <span id="headline" class="text-center particletext confetti">Carly's Cakes</span>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="/about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/prices.html">Prices</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <a id="enter" class="btn text-center" href="/home.html">Enter</a>
-      </div>
-    </div>
-  </body>
+        <!-- /.container-fluid -->
+    </nav>
 
-  <!-- Custom JS -->
-  <script type="text/javascript">
+    <header id="landing_header">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Endulge Your <span style="color:red">Sweet</span> Tooth</h1>
+                <a  href="/about.html"><button style="margin-top:20px;" type="button" class="btn red-bg white-clr">Enter</button></a>
+            </div>
+        </div>
+    </header>
 
-  // Sprinkles Start
-  //okpt("CSS Particle Effects");
-function initparticles() {
- confetti();
-}
-
-/*The measurements are ... whack (so to say), for more general text usage I would generate different sized particles for the size of text; consider this pen a POC*/
-
-
-function confetti() {
- $.each($(".particletext.confetti"), function(){
-    var confetticount = ($(this).width()/50)*10;
-    for(var i = 0; i <= confetticount; i++) {
-       $(this).append('<span class="particle c' + $.rnd(1,2) + '" style="top:' + $.rnd(10,50) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(6,8) + 'px; height:' + $.rnd(3,4) + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
-    }
- });
-}
-
-
-jQuery.rnd = function(m,n) {
-    m = parseInt(m);
-    n = parseInt(n);
-    return Math.floor( Math.random() * (n - m + 1) ) + m;
-}
-
-initparticles();
-
-
-  // Sprinkles End
-
-  </script>
-  <!-- Custom JS -->
+</body>
 
 </html>

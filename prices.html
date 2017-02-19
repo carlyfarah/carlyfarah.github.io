@@ -1,145 +1,330 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
-    <title>Carly's Cakes Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Los Angeles Bakery">
+    <meta name="author" content="Carly Farah">
 
-    <!-- Jquery -->
-      <script src="css/bower_components/jquery/dist/jquery.min.js"></script>
+    <title>Desserts by Carly</title>
 
-    <!-- Bootstrap Start -->
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="css/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+    <!-- <link rel="shortcut icon" type="image/png" href="http://eg.com/favicon.png"/> -->
 
-      <!-- Optional theme -->
-      <link rel="stylesheet" href="css/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="css/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
-    <!-- Bootstrap End -->
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-  </head>
-  <body>
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">
-          <img src="img/brand.png" width="20" height="25">
-      </a>
-    </div>
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/prices.css" rel="stylesheet">
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/gallery">Gallery</a></li>
-        <li><a href="/prices">Prices</a></li>
-        <li><a href="/recipes">Recipes</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-    <h1 class="table-title">Cakes, Cupcakes, & Muffins</h1>
-    <p>Flavors: Vanilla, Chocolate, Banana, Carrot, Red Velvet</p>
-    <p>All items come with free buttercream frosting, of your choice of flavor. For additional frostings, see below.</p>
+</head>
 
-    <div class="row">
-      <div class="col-xs-4 header">Description</div>
-      <div class="col-xs-4 header">Serving Size</div>
-      <div class="col-xs-4 header">Price</div>
-    </div>
+<body id="page-top">
 
-    <div class="row">
-      <div class="col-xs-4">6" Round. 2 Layer Cake</div>
-      <div class="col-xs-4">2-6</div>
-      <div class="col-xs-4">$10</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4">8" Round, 2 Layer Cake</div>
-      <div class="col-xs-4">8-12</div>
-      <div class="col-xs-4">$25</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4">10" Round, 2 Layer Cake</div>
-      <div class="col-xs-4">10-16</div>
-      <div class="col-xs-4">#30</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4">Rectangular Sheet Cake</div>
-      <div class="col-xs-4">20-30</div>
-      <div class="col-xs-4">$45</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4">Cupcakes by the Dozen</div>
-      <div class="col-xs-4">12</div>
-      <div class="col-xs-4">$25 ($20 per additional dozen)</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4">Banana Muffins by the Dozen</div>
-      <div class="col-xs-4">12</div>
-      <div class="col-xs-4">$20 ($15 per additional dozen)</div>
-    </div>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top" style="font-family:Pacifico;color:red"><img src="img/logo.png" alt="Desserts by Carly Logo" class="img-fluid" style="height:180%; display:inline-block;">Desserts by Carly</a>
+            </div>
 
-  <h1 class="table-title">Frosting</h1>
-    <div class="row">
-      <div class="col-xs-6 header">Description</div>
-      <div class="col-xs-6 header">Price</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-6">Buttercream Frosting (any flavor)</div>
-      <div class="col-xs-6">Free</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-6">Whipped Cream Frosting</div>
-      <div class="col-xs-6">+$1</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-6">Cream Cheese Frosting</div>
-      <div class="col-xs-6">+$2</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-6">Merenge Buttercream</div>
-      <div class="col-xs-6">+$5</div>
-    </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll " href="/about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll red-clr" href="/prices.html">Prices</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-    <h1 class="table-title">Cheesecakes</h1>
-    <div class="row">
-      <div class="col-xs-4 header">Description</div>
-      <div class="col-xs-4 header">Serving Size</div>
-      <div class="col-xs-4 header">Price</div>
-    </div>
+    <!-- <header id="about_header">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 id="homeHeading">Hi I'm <span style="color:red">Carly</span></h1>
+        </div>
+      </div>
+    </header> -->
 
-    <div class="row">
-      <div class="col-xs-4">Regular 9" Round Cheesecake</div>
-      <div class="col-xs-4">8-12</div>
-      <div class="col-xs-4">$25</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4">Gourmet 9" Round Cheesecake</div>
-      <div class="col-xs-4">8-12</div>
-      <div class="col-xs-4">$30</div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4">4.5" Mini Cheesecakes</div>
-      <div class="col-xs-4">1-4</div>
-      <div class="col-xs-4">$5</div>
-    </div>
+    <!-- <div class="row">
+      <div class="col-lg-2">
 
-    <h1 class="table-title">Pies & Tarts</h1>
-    <p>All pies come with whipped cream</p>
+      </div>
+      <div id="about_content" class="col-lg-8 text-center">
+        <img id="about_image" class="img-responsive img-circle" src="img/carly.jpg" alt="Photo of Carly">
+        <p>I have always had a passion for cooking and baking and I am so happy that I get to share what I love with everyone! I am originally from Chicago, but I have spent most of my life in Southern California, and even spent some time living overseas.</p>
+        <p>If you'd like to place an order please <a href="/contact.html">contact</a> me!</p>
+      </div>
+      <div class="col-lg-2">
 
-  </body>
-</html>
+      </div>
+    </div> -->
+
+    <!-- Teaching example from http://www.mycookroom.ru/mywork/Leaff/Leaff-v1.4/Site/index-4.html -->
+<section id="popular" class="module">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="module-header wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+						<h2 class="module-title">Cakes, Cupcakes and Muffins</h2>
+					</div>
+				</div>
+			</div><!-- .row -->
+
+			<div class="row">
+
+				<div class="col-sm-6">
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">6" Round, 2 Layer Cake</h4>
+								<div class="menu-detail"> 2-6 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$10</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">8" Round, 2 Layer Cake</h4>
+								<div class="menu-detail">8-12 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$25</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">10" Round, 2 Layer Cake</h4>
+								<div class="menu-detail">10-16 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$30</h4>
+							</div>
+						</div>
+					</div>
+
+
+				</div><!-- .col-sm-6 -->
+
+				<div class="col-sm-6">
+
+          <div class="menu">
+            <div class="row">
+              <div class="col-sm-8">
+                <h4 class="menu-title">Rectangular Sheet Cake</h4>
+                <div class="menu-detail">20-30 Servings</div>
+              </div>
+              <div class="col-sm-4 menu-price-detail">
+                <h4 class="menu-price">$45</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu">
+            <div class="row">
+              <div class="col-sm-8">
+                <h4 class="menu-title">Cupcakes by the Dozen</h4>
+                <div class="menu-detail">12 Servings</div>
+              </div>
+              <div class="col-sm-4 menu-price-detail">
+                <h4 class="menu-price">$25</h4>
+              </div>
+            </div>
+          </div>
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">Banana Muffins by the Dozen</h4>
+								<div class="menu-detail">12 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$20</h4>
+							</div>
+						</div>
+					</div>
+
+				</div><!-- .col-sm-6 -->
+
+			</div><!-- .row -->
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="module-header wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+						<h2 class="module-title">Cheescakes, Pies, Tarts and Cookies</h2>
+					</div>
+				</div>
+			</div><!-- .row -->
+
+			<div class="row">
+
+				<div class="col-sm-6">
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">Regular 9" Round Cheesecake</h4>
+								<div class="menu-detail"> 8-12 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$25</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">Gourmet 9" Round Cheesecake</h4>
+								<div class="menu-detail">8-12 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$30</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">4.5" Mini Cheesecakes</h4>
+								<div class="menu-detail">1-4 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$5</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">Banoffee Pie Regular</h4>
+								<div class="menu-detail">8-12 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$15</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">Banoffee Pie Large</h4>
+								<div class="menu-detail">20-30 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$25</h4>
+							</div>
+						</div>
+					</div>
+
+				</div><!-- .col-sm-6 -->
+
+				<div class="col-sm-6">
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">Pie: Apple, Cherry... etc.</h4>
+								<div class="menu-detail">6-8 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$15</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">Tart Regular</h4>
+								<div class="menu-detail">8-12 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$15</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">Tart Large</h4>
+								<div class="menu-detail">20-30 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$25</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="row">
+							<div class="col-sm-8">
+								<h4 class="menu-title">Cookies per dozen</h4>
+								<div class="menu-detail">12 Servings</div>
+							</div>
+							<div class="col-sm-4 menu-price-detail">
+								<h4 class="menu-price">$15</h4>
+							</div>
+						</div>
+					</div>
+
+				</div><!-- .col-sm-6 -->
+
+			</div><!-- .row -->
+
+
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="devider">
+					</div>
+				</div>
+			</div><!-- .row -->
+
+		</div><!-- .container -->
+	</section>
+
+</body>
