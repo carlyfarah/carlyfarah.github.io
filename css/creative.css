@@ -470,6 +470,6 @@ body {
   .gallery-div{
     width:49.5%;
     display:inline-block;
-    margin: 0px -2px;
+    margin: -3px -2px;
   }
 }
