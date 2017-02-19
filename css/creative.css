@@ -42,12 +42,11 @@
   height: 300px;
   padding-top: 25%;
 }
-/*#gallery_header{
-  background-image: url('../img/about.jpeg');
-  background-color: black;
-  height: 300px;
-  padding-top: 25%;
-}*/
+
+/* Gallery */
+#portfolio{
+  margin-top: 55px
+}
 .gallery-img{
   width: 100%
 }
