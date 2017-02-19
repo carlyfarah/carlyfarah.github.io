@@ -36,6 +36,12 @@
   height: 300px;
   padding-top: 25%;
 }
+#recipes_header{
+  background-image: url('../img/recipes/recipes.jpg');
+  background-color: black;
+  height: 300px;
+  padding-top: 25%;
+}
 /*#gallery_header{
   background-image: url('../img/about.jpeg');
   background-color: black;
