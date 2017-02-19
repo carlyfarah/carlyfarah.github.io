@@ -1,575 +1,117 @@
-#DIV_1 {
-    background-position: 50% 50%;
-    bottom: 0px;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    float: left;
-    height: 100vh;
-    left: 0px;
-    min-height: 939px;
-    position: relative;
-    right: 0px;
-    text-align: center;
-    text-size-adjust: 100%;
-    top: 0px;
-    width: 100vw;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 769.5px 546.25px;
-    transform-origin: 769.5px 546.25px;
-    background: rgb(238, 238, 238) url("../img/contact.jpeg") no-repeat scroll 50% 50% / cover padding-box border-box;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 234.75px 15px;
-}/*#DIV_1*/
+/* General */
+#mobile_container{
+  padding: 0px;
+}
+.section{
+  min-height: 100vh;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+}
+.vertical-align-bottom{
+  vertical-align: bottom;
+}
+.btn-primary{
+  color:white;
+  background-color: #fed136;
+  border: none;
+}
+.btn-primary:hover{
+  color:white;
+  background-color: #fed142;
+}
+.btn-md{
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.btn-xl{
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 20px 40px;
+}
+.grey_section{
+  background-color: #eee;
+}
 
-#DIV_2 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 623px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 1170px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 585px 311.5px;
-    transform-origin: 585px 311.5px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px 169.5px;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 0px 15px;
-}/*#DIV_2*/
+.section_header{
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
-/*#DIV_2:after {
-    box-sizing: border-box;
-    clear: both;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: table;
-    text-align: center;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_2:after*/
+.section_subheader{
+  margin-bottom: 75px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  color: #777;
+}
 
-/*#DIV_2:before {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: table;
-    text-align: center;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_2:before*/*/
+i{
+  color: yellow;
+}
 
-#DIV_3 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 185px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 1170px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 585px 92.5px;
-    transform-origin: 585px 92.5px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px -15px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_3*/
+::selection {
+    text-shadow: none;
+    background: #fed136;
+}
 
-/*#DIV_3:after {
-    box-sizing: border-box;
-    clear: both;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: table;
-    text-align: center;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_3:after*/
+.text-primary, a {
+    color: #fed136;
+}
 
-/*#DIV_3:before {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: table;
-    text-align: center;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_3:before*/
+td{
+  padding: 4px;
+}
 
-#DIV_4 {
-    bottom: 0px;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    float: left;
-    height: 185px;
-    left: 0px;
-    min-height: 1px;
-    position: relative;
-    right: 0px;
-    text-align: center;
-    text-size-adjust: 100%;
-    top: 0px;
-    width: 1170px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 585px 92.5px;
-    transform-origin: 585px 92.5px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 0px 15px;
-}/*#DIV_4*/
+table{
+  margin: auto;
+}
 
-#H2_5 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 44px;
-    text-align: center;
-    text-size-adjust: 100%;
-    text-transform: uppercase;
-    width: 1140px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 570px 22px;
-    transform-origin: 570px 22px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal bold normal 40px / 44px Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 20px 0px 15px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#H2_5*/
+/* Contact Start */
+#contact_div{
+  background-image: url(../img/contact.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  min-height: 100vh;
+}
+#contact_div h3{
+  color: white;
+}
+.form-control{
+  padding:30px;
+  margin-bottom: 25px;
+}
 
-#H3_6 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 26px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 1140px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 570px 13px;
-    transform-origin: 570px 13px;
-    border: 0px none rgb(255, 255, 255);
-    font: italic normal 500 normal 24px / 26.4px "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 20px 0px 75px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#H3_6*/
+#message{
+  height: 236px;
+}
 
-#DIV_7 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 438px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 1170px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 585px 219px;
-    transform-origin: 585px 219px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px -15px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_7*/
-
-/*#DIV_7:after {
-    box-sizing: border-box;
-    clear: both;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: table;
-    text-align: center;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_7:after*/
-
-/*#DIV_7:before {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: table;
-    text-align: center;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_7:before*/
-
-#DIV_8 {
-    bottom: 0px;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    float: left;
-    height: 438px;
-    left: 0px;
-    min-height: 1px;
-    position: relative;
-    right: 0px;
-    text-align: center;
-    text-size-adjust: 100%;
-    top: 0px;
-    width: 1170px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 585px 219px;
-    transform-origin: 585px 219px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 0px 15px;
-}/*#DIV_8*/
-
-#FORM_9 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 328px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 1140px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 570px 164px;
-    transform-origin: 570px 164px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#FORM_9*/
-
-#DIV_10 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 328px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 1170px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 585px 164px;
-    transform-origin: 585px 164px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px -15px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_10*/
-
-/*#DIV_10:after {
-    box-sizing: border-box;
-    clear: both;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: table;
-    text-align: center;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_10:after*/
-
-/*#DIV_10:before {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: table;
-    text-align: center;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_10:before*/
-
-#DIV_11, #DIV_21 {
-    bottom: 0px;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    float: left;
-    height: 261px;
-    left: 0px;
-    min-height: 1px;
-    position: relative;
-    right: 0px;
-    text-align: center;
-    text-size-adjust: 100%;
-    top: 0px;
-    width: 585px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 292.5px 130.5px;
-    transform-origin: 292.5px 130.5px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 0px 15px;
-}/*#DIV_11, #DIV_21*/
-
-#DIV_12, #DIV_15, #DIV_18 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 62px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 555px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 277.5px 31px;
-    transform-origin: 277.5px 31px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px 0px 15px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_12, #DIV_15, #DIV_18*/
-
-#INPUT_13, #INPUT_16, #INPUT_19 {
-    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
-    color: rgb(85, 85, 85);
-    display: block;
-    height: 62px;
-    text-size-adjust: 100%;
-    width: 555px;
-    column-rule-color: rgb(85, 85, 85);
-    perspective-origin: 277.5px 31px;
-    transform-origin: 277.5px 31px;
-    border: 1px solid rgb(204, 204, 204);
-    border-radius: 4px 4px 4px 4px;
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px 0px 25px;
-    outline: rgb(85, 85, 85) none 0px;
-    padding: 30px;
-    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-}/*#INPUT_13, #INPUT_16, #INPUT_19*/
-
-#P_14, #P_17, #P_24 {
-    box-sizing: border-box;
-    color: rgb(255, 0, 0);
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 555px;
-    column-rule-color: rgb(255, 0, 0);
-    perspective-origin: 277.5px 0px;
-    transform-origin: 277.5px 0px;
-    border: 0px none rgb(255, 0, 0);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 5px 0px 10px;
-    outline: rgb(255, 0, 0) none 0px;
-}/*#P_14, #P_17, #P_24*/
-
-#P_20 {
-    box-sizing: border-box;
-    color: rgb(255, 0, 0);
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 555px;
-    column-rule-color: rgb(255, 0, 0);
-    perspective-origin: 277.5px 0px;
-    transform-origin: 277.5px 0px;
-    border: 0px none rgb(255, 0, 0);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 5px 0px 10px;
-    outline: rgb(255, 0, 0) none 0px;
-}/*#P_20*/
-
-#DIV_22 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 236px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 555px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 277.5px 118px;
-    transform-origin: 277.5px 118px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px 0px 15px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_22*/
-
-#TEXTAREA_23 {
-    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
-    color: rgb(85, 85, 85);
-    display: block;
-    height: 236px;
-    text-size-adjust: 100%;
-    width: 555px;
-    column-rule-color: rgb(85, 85, 85);
-    perspective-origin: 277.5px 118px;
-    transform-origin: 277.5px 118px;
-    border: 1px solid rgb(204, 204, 204);
-    border-radius: 4px 4px 4px 4px;
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px 0px 25px;
-    outline: rgb(85, 85, 85) none 0px;
-    padding: 30px;
-    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-}/*#TEXTAREA_23*/
-
-#DIV_25 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 261px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 1170px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 585px 130.5px;
-    transform-origin: 585px 130.5px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_25*/
-
-/*#DIV_25:after {
-    box-sizing: border-box;
-    clear: both;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: table;
-    text-align: center;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_25:after*/
-
-/*#DIV_25:before {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: table;
-    text-align: center;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_25:before*/
-
-#DIV_26 {
-    bottom: 0px;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    float: left;
-    height: 67px;
-    left: 0px;
-    min-height: 1px;
-    position: relative;
-    right: 0px;
-    text-align: center;
-    text-size-adjust: 100%;
-    top: 0px;
-    width: 1170px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 585px 33.5px;
-    transform-origin: 585px 33.5px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 0px 15px;
-}/*#DIV_26*/
-
-#DIV_27 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 1140px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 570px 0px;
-    transform-origin: 570px 0px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#DIV_27*/
-
-#BUTTON_28 {
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    height: 67px;
-    text-size-adjust: 100%;
-    touch-action: manipulation;
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 208.344px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 104.172px 33.5px;
-    transform-origin: 104.172px 33.5px;
-    user-select: none;
-    background: rgb(254, 209, 54) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 1px solid rgb(254, 209, 54);
-    border-radius: 3px 3px 3px 3px;
-    font: normal normal 900 normal 18px / 25.7143px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 20px 40px;
-}/*#BUTTON_28*/
-
-#UL_29 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 80px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 1140px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 570px 40px;
-    transform-origin: 570px 40px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    list-style: none outside none;
-    margin: 20px 0px 10px;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 0px;
-}/*#UL_29*/
-
-#LI_30, #LI_31, #LI_33, #LI_35 {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 20px;
-    text-align: center;
-    text-size-adjust: 100%;
-    width: 1140px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 570px 10px;
-    transform-origin: 570px 10px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    list-style: none outside none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_30, #LI_31, #LI_33, #LI_35*/
-
-#A_32, #A_34 {
-    box-sizing: border-box;
-    color: rgb(254, 209, 54);
-    text-align: center;
-    text-decoration: none;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(254, 209, 54);
-    border: 0px none rgb(254, 209, 54);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    list-style: none outside none;
-    outline: rgb(254, 209, 54) none 0px;
-}/*#A_32, #A_34*/
-
-#A_36 {
-    box-sizing: border-box;
-    color: rgb(254, 209, 54);
-    text-align: center;
-    text-decoration: none;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(254, 209, 54);
-    border: 0px none rgb(254, 209, 54);
-    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    list-style: none outside none;
-    outline: rgb(254, 209, 54) none 0px;
-}/*#A_36*/
+#contact_info_ul{
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 20px;
+}
+.text-danger{
+    color: red;
+}
+.text-danger ul{
+    list-style: none;
+    padding-left: 0px;
+}
+/* Contact End */
