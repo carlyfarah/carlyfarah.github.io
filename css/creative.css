@@ -4,6 +4,18 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+ @-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+
 .red-bg{
   background-color: red !important;
 }
@@ -16,6 +28,20 @@
   color: red !important;
 }
 
+#home_heading{
+  font-family: 'Dancing Script', cursive;
+  text-transform: capitalize;
+}
+
+#welcome_sign{
+  width:150px; /* you can use % */
+  height: auto;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+  animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
 #about_image{
   margin: auto;
   margin-bottom: 60px
@@ -25,7 +51,7 @@
   margin: 60px auto;
 }
 #landing_header{
-  background-image: url('../img/header.jpeg');
+  background-image: url('../img/cmas.jpg');
   background-color: black;
   min-height: 100vh;
   padding-top: 50%;
