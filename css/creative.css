@@ -16,8 +16,40 @@
     100%{transform: rotate(10deg);}
 }
 
+.dancing_script{
+  font-family: 'Dancing Script', cursive;
+}
+#about_page{
+  background-image: url('../img/palms.jpg');
+  background-size: cover;
+}
+/*#popular{
+  background-image: url('../img/menu.jpg');
+  background-size: cover;
+}*/
+
+.menu_background{
+  /*background-image: url('../img/menu_background.jpg');*/
+  /*background-size: cover;*/
+  background-color: rgb(245, 237, 230);
+  padding: 30px;
+}
+
+.menu_border{
+  padding: 30px;
+  border: 1px dotted #da1111;
+}
+
+#mainNav{
+  font-family: Pacifico;
+}
+
+.pacifico{
+  font-family:Pacifico !important;
+}
+
 .red-bg{
-  background-color: red !important;
+  background-color: #da1111 !important;
 }
 
 .white-clr{
@@ -25,7 +57,7 @@
 }
 
 .red-clr{
-  color: red !important;
+  color: #da1111 !important;
 }
 
 #home_heading{
@@ -43,12 +75,12 @@
 }
 
 #about_image{
-  margin: auto;
-  margin-bottom: 60px
+  margin: 60px auto;
 }
 
 #about_content{
   margin: 60px auto;
+  padding: 0px 20px;
 }
 #landing_header{
   background-image: url('../img/cmas.jpg');
@@ -105,7 +137,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: red;
+  color: #da1111;
 }
 h1,
 h2,
@@ -174,7 +206,7 @@ aside {
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: red !important;
+  color: #da1111 !important;
   background-color: white;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -199,7 +231,7 @@ aside {
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: red;
+    color: #da1111;
   }
   .navbar-default.affix {
     background-color: white;
@@ -311,7 +343,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(230, 24, 24, 0.66);
   position: absolute;
   bottom: 0;
   text-align: center;
